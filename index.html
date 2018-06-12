@@ -1,0 +1,101 @@
+<html lang="en">
+    
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Biografen - Home</title>
+
+</head>
+<body>
+
+  <ul>
+    <li><a class="home" href="index.html">Home</a></li>
+    <li class="home2"><a href="movies.html">Movies</a></li>
+    <li class="home3"><a href="shows.html">Shows</a></li>
+    <li class="home4"><a href="booking.html">Booking</a></li>
+    <li class="home5"><a href="#popup1">Contact</a></li>
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+          <h2>Contact</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+              <div>
+                  <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="First name">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last name">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country" placeholder="Country">
+                    <form>
+                        <textarea></textarea>
+                      </form>
+                    </select>
+                  
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
+          </div>
+        </div>
+      </div>
+  </ul>
+  
+  <div class="jumbotron jumbotron-fluid">
+    <div class="containermain">
+      <p>Biografen</p> 
+      <h2>Welcome to a world of movies...</h2> 
+    </div>
+  </div>
+
+  <div class="container flex-fill mt-3">
+    <h2>News</h2>
+    <div class="d-flex mb-3">
+      <div class="p-2 flex-fill bg-info flex1">
+          <img src="thenun.jpg" alt="The Nun" width="300px"> 
+          <p>The Nun is an upcoming American supernatural horror film directed by Corin Hardy. The screenplay by
+		  Gary Dauberman is from a story by Dauberman and James Wan. It is a spin-off of 2016's The Conjuring 2
+		  and is set to be the fifth installment in The Conjuring series. It stars Taissa Farmiga, Demián Bichir,
+		  Charlotte Hope, Ingrid Bisu, Jonas Bloquet and Bonnie Aarons. Release date is set to <font color="red">September 7,2018</font>
+		  , by Warner Bros. Pictures.</p>
+      </div>
+      <div class="p-2 flex-fill bg-warning flex2">
+          <p>
+		  </p>
+      </div>
+      <div class="p-2 flex-fill bg-primary flex3">
+          <p>
+		  </p>
+      </div>
+    </div>
+    
+    <div class="d-flex mb-3 bg-secondary">
+      <div class="p-2 flex-fill bg-success">1</div>
+      <div class="p-2 flex-fill bg-danger">2</div>
+      <div class="p-2 flex-fill bg-secondary">3</div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container center">
+      <div class="row justify-content-center">
+        <p>BIOGRAF &copy; 2018</p>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
